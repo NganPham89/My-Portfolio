@@ -25,6 +25,10 @@ h6 {
   font-size: 100%;
 }
 
+a {
+  all:unset;
+}
+
 ​input,
 select,
 option,
