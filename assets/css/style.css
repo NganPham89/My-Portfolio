@@ -102,3 +102,61 @@ body {
     padding: 1% 1%;
 }
 
+.work {
+    display:flex;
+    justify-content: flex-end;
+    background-color: var(--lightbg);
+    margin: 1% 0;
+    padding: 1.25% .75%;
+    width: 10%;
+}
+
+.git {
+    margin: 0 1.1%;
+    border: 5px solid black;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projcard {
+    margin: 1% 0;
+    border: 5px solid black;
+}
+
+.contact {
+    display: flex;
+}
+
+.cont {
+    display:flex;
+    justify-content: flex-end;
+    background-color: var(--lightbg);
+    margin: 1% 0;
+    padding: 1.25% .75%;
+    width: 10%;
+}
+
+.contlist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.contlink {
+    margin: 0 60%;
+    border-bottom: 5px solid black;
+    font-size: 125%;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px var(--lightbg);
+
+}
+
+footer {
+    text-align: center;
+    font-size: 75%;
+}
