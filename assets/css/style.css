@@ -1,0 +1,47 @@
+:root {
+    --lightbg: rgb(151, 112, 223);
+
+}
+
+header {
+    display: flex;
+    margin-top: 1%;
+    align-items: flex-end;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+.title {
+    background-color: var(--lightbg);
+    padding: .75%;
+    padding-left: 2%;
+    padding-right: .5%;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+.navlinks {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+}
+
+.links {
+    margin: 0 1%;
+    padding: .25% 1.25%;
+    border-bottom: 5px solid var(--lightbg);
+    font-size: 125%;
+    font-weight: bold;
+    color: var(--lightbg);
+}
