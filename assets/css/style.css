@@ -203,3 +203,12 @@ footer {
     text-align: center;
     font-size: 75%;
 }
+
+@media screen and (max-width: 768px) {
+    .navlinks,.profile,.work,.portfolio,.contact,.cont {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 30%;
+    }
+}
