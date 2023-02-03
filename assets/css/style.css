@@ -112,7 +112,7 @@ body {
     display:flex;
     justify-content: flex-end;
     background-color: var(--lightbg);
-    margin: 1% 0;
+    margin: 1% 0 1.75% 0;
     padding: 1.25% .75%;
     width: 10%;
 }
@@ -128,10 +128,24 @@ body {
 }
 
 .recent {
+    position: relative;
+    margin: 0 0 -4.5% 1.75%;
     background-color: black;
     color: var(--lightbg);
-    width: 5%;
-    
+    width: 10%;
+    font-size: 150%;
+    padding: 1%;
+}
+
+.projtag {
+    position:relative;
+    background-color: black;
+    font-size: 150%;
+    color: var(--lightbg);
+    padding: .5%;
+    width: 25%;
+    text-align: center;
+    margin: 3% 0 -5% 0;
 }
 
 .portfolio {
@@ -171,7 +185,7 @@ body {
 }
 
 .contlink {
-    margin: 0 60%;
+    margin: 0 20%;
     border-bottom: 5px solid black;
     font-size: 125%;
     font-weight: bold;
