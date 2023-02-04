@@ -109,7 +109,7 @@ body {
 }
 
 .work {
-    display:flex;
+    display: flex;
     justify-content: flex-end;
     background-color: var(--lightbg);
     margin: 1% 0 1.75% 0;
@@ -138,7 +138,7 @@ body {
 }
 
 .projtag {
-    position:relative;
+    position: relative;
     background-color: black;
     font-size: 150%;
     color: var(--lightbg);
@@ -168,7 +168,7 @@ body {
 }
 
 .cont {
-    display:flex;
+    display: flex;
     justify-content: flex-end;
     background-color: var(--lightbg);
     margin: 1% 0;
@@ -205,10 +205,28 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .navlinks,.profile,.work,.portfolio,.contact,.cont {
+
+    .navlinks,
+    .profile,
+    .work,
+    .portfolio,
+    .contact,
+    .cont {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         width: 30%;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .banner,.width,.cont {
+        width: 20%;
+    }
+}
+
+.backT {
+    display:flex;
+    justify-content: flex-end;
+    margin: 0 2%;
 }
